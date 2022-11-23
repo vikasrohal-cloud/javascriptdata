@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<h1>hello guys</h1>
+<style>
+#btn{
+  padding: 10px,12px;
+  background-color: blue;
+  color: aliceblue;
+  border: 2px solid;
+  cursor: pointer;
+  border-radius: 8px;
+  }
+</style>
+<body>
+  <div class="container"> 
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos harum iste magni tempora nobis in officia vero reiciendis, aperiam quia, similique laborum, excepturi fugit perspiciatis fugiat dolore. Ipsa, soluta totam! Doloremque modi ut sunt soluta distinctio rerum. Dolore similique eos ab deserunt accusamus voluptates architecto, ipsum non dignissimos voluptas placeat perferendis nulla eaque libero commodi iste voluptatibus magni blanditiis quasi! Dicta ducimus, possimus consequatur expedita, nihil dignissimos est cum minima, nobis similique consequuntur magni provident sequi fuga eaque rerum in soluta rem quibusdam vitae quam aperiam. Architecto ducimus illo velit sit tempora quasi, repudiandae, aliquid molestias ab, labore ea necessitatibus.</p>
+
+  </div>
+  <button id="btn" onclick="hideShow()">click here</button>
+
+
+  <!-- <h1>hello guys </h1>
+    <p>here we change the color of div</p>
+    <div  onmouseup="onMouseup(this)"  onmousedown="onMousedown(this)" 
+    style="background-color:#D94A38;width: 200px;height: 200px;padding: 20px;" >click me !</div>
+     -->
+
+
+  <!--   <p id="demo2"></p>
+  <p id="demo3"></p>
+  <p id="demo4"></p>
+  <p id="demo5"></p> -->
+  <!-- <button onclick="document.getElementById('demo').innerHTML= getRadno(5,10)">click me !</button> -->
+  <!-- <p>ENTER YOUR age HERE <input value="18" id="age"></p>
+  <p>Here we check we are eligible for vote or not  ?</p>
+  <button onclick="myFun()">try it !</button>
+   -->
+  <!-- <p id="demo" ></p>
+  
+
+  <p>here we change the background color with the help of javascript</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa. Voluptas hic facere quibusdam officia quos rem quae velit maxime error quia! Temporibus deleniti modi natus iusto excepturi, a qui?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui mollitia reiciendis quaerat illo minima aut quasi esse quisquam, doloremque error assumenda amet illum, voluptas corporis numquam, quam nulla quas excepturi!
+
+
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae similique officia nobis aspernatur aliquid. Dolore maxime voluptas facilis rerum quaerat iste unde temporibus, non deserunt, nostrum eveniet natus, eligendi possimus.
+    loere
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, consequuntur necessitatibus eligendi porro dicta ratione molestiae optio maiores sapiente incidunt itaque, facere dolorum voluptatibus veniam architecto. Doloremque inventore nemo vitae?
+  </p>
+  <p>
+    <a href="javascript:void(document.body.style.backgroundColor='red')">click here to change the bg backgroundColor</a>
+  </p>
+  <button onclick="onMouseup(this)"> click here</button> -->
+
+  
+  <script >
+
+
+    //     let name="vikas choudhary ";
+    // let qual="BTech ";
+    // let txt=`my name is ${name}as well qualification ${qual}`
+    // document.getElementById("demo").innerHTML=txt;
+
+
+
+      //     function onMouseup(id){
+      //   id.style.backgroundColor = "#1ec5e5";
+      //   id.innerHTML = "release me !"
+      // }
+      // function onMousedown(id){
+      //    id.style.backgroundColor ="#D94A38";
+      //    id.innerHTML = "click me !"  
+      // }
+
+
+
+    //   let txt="hey gus , my name is vikas choudhary ! tell me about your self"
+    // document.getElementById("demo").innerHTML=txt.includes("vikas");
+
+
+
+// function myFunction(){
+//          const x = document.getElementById("input")
+//          x.value = x.value.toUpperCase();
+//        }
+
+
+
+
+// const person = {
+//      name : "vikas",
+//      class : "BTech",
+//      add : "jansath",
+//      rollno : "190083100048"
+//     };
+//     document.getElementById("demo").innerHTML = person.name;
+
+
+
+
+  //  function myFunction(){
+  //      document.getElementById("demo").innerHTML = "fuck you shivam ";
+  //   }
+
+   
+   
+   //      const person = {
+    //  name : "vikas",
+    //  class : "BTech",
+    //  add : "jansath",
+    //  rollno : "190083100048"
+    // };
+    // document.getElementById("demo").innerHTML = person.name;
+   
+    
+    
+    // const car={type:"fait",name:"volvo",year:"2002"}
+    // document.getElementById("demo").innerHTML="this is "+car.name+" and as well mine";
+    
+    
+    // function myFunction(p1,p2){
+    //      return p1*p2
+    //  }document.getElementById("demo").innerHTML=myFunction(10,20);
+
+
+
+    // function onMouseup(id){
+    //     id.style.backgroundColor = "#1ec5e5";
+    //     id.innerHTML = "release me !"
+    //   }
+
+      
+    //   function onMousedown(id){
+    //      id.style.backgroundColor ="#D94A38";
+    //      id.innerHTML = "click me !"  
+    //   }  
+    // let txt = "template literal";
+    // let tag = ["templates literals ","javascript","es6","by vikas choudhary"];
+    // let html = `<h2> ${txt} </h2><ol>`
+    //   for ( const x of tag){
+    //    html+= `<li>${x}</li>`
+    //   }
+    // html+=`</ol>`
+    // document.getElementById("demo").innerHTML=html;
+
+    
+    // const numbers1 = [23,323,45,766,78654,34355,224];
+    // let x =""
+    // numbers1.forEach(myFun);
+    // document.getElementById("demo").innerHTML=x;
+
+    // function myFun(value){
+    //   x += value + "<br>";
+    // }
+    
+    
+    // const num = [2,3,4,5,6,7,8]
+    // const num2 =num.map(myFun) 
+    // document.getElementById("demo").innerHTML= num2 
+
+    // function myFun(value){
+    //   return value**2 
+    // }
+  
+    // const num1 = [232,332,121,2,4444]
+    // x =""
+    
+    // num1.forEach(myFun)
+    // document.getElementById("demo").innerHTML=x
+
+    // function myFun(value){
+    //   if(value>40) {
+    //     document.write(value)}
+    //   else{
+    //       Document.write("no")
+    //   }
+    // }
+       
+    // function getRadno(min,max){
+    //   return Math.floor(Math.random() * (max - min)+min)
+    // }
+
+
+    // const car = {type:"tata", name:"xuv500", year:"2020"}
+    // document.getElementById("demo").innerHTML=car?.name;
+
+    // function myFun(){
+    //   let agevar;
+    //   let age = Number(document.getElementById("age").value)
+    //   if (isNaN(age)){
+    //     agevar="input is not valid"
+    //    }else{
+    //     agevar = (age < 18)? "to Young ":"Enough older "
+    //    }
+    //    document.getElementById("demo").innerHTML=agevar + "to vote";
+    //   }
+ 
+    
+    // const cars = ["bmw","mc","tata","maruti","L"];
+
+    // i=0;
+    // len = cars.length;
+    // txt="";
+     
+    // for (i;i<len;i++){
+    //   txt += cars[i] +"<br>";
+      
+    // }
+    // document.getElementById("demo").innerHTML = txt;
+    
+    // const person ={name:"vikas",sname:"rohal",class:"Btech",age:"20"}
+    // txt=""
+    // for(i in person){
+    //   txt += person[i] + " "
+    // }
+    // document.getElementById("demo").innerHTML=txt
+
+
+    // here we get the data from new set
+    // const letter = new Set(["vikas","rohal","malikpura"]);
+    // let txt="";
+    // for(const x of letter.values()){
+    //   txt += x + "<br>";
+    // }
+    // document.getElementById("demo").innerHTML= txt;
+
+
+    // const person = new Map([
+    //   ["name "," vikas "],
+    //   ["sname "," rohal "],
+    //   ["course "," btech "]
+    // ]);
+    // let txt =""
+    // person.forEach(function(value,key){
+    //   txt += key + '=' + value + "<br>"+"<br>";
+    // })
+    // document.getElementById("demo").innerHTML = txt;
+
+
+//     const person = {
+//       name : "vikas",
+//       sname : "rohal",
+//       course : "btech",
+//       age : "20",
+//       fullname : function myFun(){
+//         return this.name +" "+ this.sname
+        
+// }
+// }
+// document.getElementById("demo").innerHTML = person.fullname();
+
+
+  //  const myFun = () =>{
+  //   return alert("hello world");
+  //  }
+  //  myFun();
+
+
+  //  const myFun = (value) =>{
+  //   return alert("hello world , this is " + value);
+  //  }
+  //  myFun("vikas choudhary");
+  
+
+//   class car {
+//     constructor(name , year){
+//       this.name = name;
+//       this.year = year;
+
+//     }
+//     age(x){
+//        return x="20 years old" ; 
+
+//     }
+//   }
+// let myCar1 = new car("Tata",2002);
+// let myCar2 = new car("Suzuki",2002);
+// let myCar3 = new car("Toyata",2002);
+// let myCar4 = new car("Mahindra",2002);
+// let myCar5 = new car("BMW",2002);
+
+
+// document.getElementById("demo1").innerHTML = myCar1.name +" " + myCar1.year + " and " + myCar1.age() ;
+// document.getElementById("demo2").innerHTML = myCar2.name +" " + myCar2.year+ " and " + myCar2.age() ;
+// document.getElementById("demo3").innerHTML = myCar3.name +" " + myCar3.year+ " and " + myCar3.age() ;
+// document.getElementById("demo4").innerHTML = myCar4.name +" " + myCar4.year+ " and " + myCar4.age() ;
+// document.getElementById("demo5").innerHTML = myCar5.name +" " + myCar5.year+ " and " + myCar5.age() ;
+
+// const x = 39;
+// const y = 322;
+// export{x,y}
+
+
+
+
+  // import {x,y} from "./index.js";
+  // let txt = "my values is " + x + " " + y 
+  // document.getElementById("demo").innerHTML = txt;
+  
+
+
+  //(++++++++++++++++++     JSON     +++++++++++++++++++)
+  // let txt = '{"employees": ['+
+  //  '{"firstname":"Vikas","lastname":"Rohal"},'+
+  //  '{"firstname":"Shivam","lastname":"Kumar"},'+
+  //  '{"firstname":"Prashant","lastname":"Pali"}]}'
+
+  //  const obj = JSON.parse(txt);
+  //  document.getElementById("demo").innerHTML= 
+  //  obj.employees[0].firstname +" "+ obj.employees[0].lastname + "<br>"+
+  //  obj.employees[1].firstname +" "+ obj.employees[1].lastname + "<br>"+
+  //  obj.employees[2].firstname +" "+ obj.employees[2].lastname;
+
+
+
+  // a = 4;
+  // b = 33;
+  // debugger;
+  // let z = a+b;
+  // console.log(z)
+
+
+
+    // const person = {
+    //  name :"vikas",
+    //  course : " btech",
+    //  age : "20"
+    // };
+    // person.school="GBPS"
+    // let txt = ""
+    // for (let x in person){
+    //   txt += person[x] + " ";
+    // }
+    
+    // document.getElementById("demo").innerHTML= txt
+
+
+
+  //   let x =""
+  //   const person = {
+  //     cars : [
+  //       {name : "bmw" , models:["x1","y1","z1"]},
+  //       {name : "tata" , models:["a1","b1","c1"]},
+  //       {name : "volvo" , models:["s1","t1","u1"]}
+  //     ]
+  //   }
+  //  for (let i in person.cars){
+  //   x += "<h2>" + person.cars[i].name + "</h2>";
+  //     for (let j in person.cars){
+  //       x +=  person.cars[i].models[j] + "<br>";
+  //     } 
+  //    }
+  //   document.getElementById("demo").innerHTML=x;
+
+
+
+  // ($$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     
+  //                                                JAVASCRIPT OBJECTS    
+  //                                                                              $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$)
+
+
+  // const names ={
+  //   fname : " vikas ",
+  //   lname : " rohal",
+  //   course : " btech ",
+  //   age : 20,
+  //   fullName : function(){
+  //     return this.fname + " " + this.lname;
+  //   }
+  // }
+  // document.getElementById("demo").innerHTML = names.fullName().toUpperCase();
+
+
+
+  // const names = {
+  //    fname : " vikas ",
+  //    lname : " rohal ",
+  //    age : 20,
+  //   //  fullName : function(){
+  //   //   return (this.fname + "  " + this.lname ).toUpperCase();
+  //   //  }
+  // }
+
+  // document.getElementById("demo").innerHTML = Object.values(names);
+
+
+//   const person = {
+//     fname : " shivam ",
+//     lname: " kumar ",
+//     age : 20 ,
+//     course : " btech"
+//   }
+//  document.getElementById("demo").innerHTML = JSON.stringify(person);
+
+
+
+
+// txt = ""
+// const person = {
+//   fullname : " vikas rohal ",
+//   course : " btech ",
+//   cars : [
+//     {name: " BMW ", models:["a1","b1","c1"]},
+//     {name:"TATA", models :["x1","y1","z1"] },
+//     {name:"volvo",models:["t1","u1","v1"]}
+//   ]
+// }
+// for (let i in person.cars){
+//   txt += "<h1>"+ person.cars[i].name + "</h1>"
+// for (let j in person.cars){
+//       txt += person.cars[i].models[j] + "<br>"
+//     }
+// }
+// document.getElementById("demo").innerHTML = txt;
+
+ 
+
+// const per = {
+//    name : " vikas ",
+//    age : 20 ,
+//    course : " btech ",
+//    get cour(){
+//     return this.course;
+//    }
+// }
+// document.getElementById("demo").innerHTML = per.cour;
+
+
+// const per ={
+//   name : " vikas ",
+//   course : " btech",
+//   langg : " english ",
+//   set lan(lan){
+//     return this.langg = lan;
+//   }
+// };
+// per.lan="Hindi";
+// document.getElementById("demo").innerHTML = per.langg;
+
+
+
+//                                         (----------------------- adding proprty in obj     ----------------)
+
+// function person (first , last , course , age ){
+//   this.firstName = first,
+//   this.lastName = last ,
+//   this.Course = course,
+//   this.Age = age
+// }
+
+// const myName1 = new person("Vikas","Rohal","BTech",20)
+// const myName2 = new person("shivam","kumar","btech",20)
+
+// // myName1.nationality = " Indian"
+// myName2.nationality = " Pakistani"
+
+
+// // document.getElementById("demo").innerHTML = myName1.nationality;
+// document.getElementById("demo").innerHTML = myName2.nationality;
+
+
+
+//                                       (----------------------------  adding method in object  ---------------------------)
+
+
+// function person (first , last , course , age ){
+//   this.firstName = first,
+//   this.lastName = last ,
+//   this.Course = course,
+//   this.Age = age
+  
+// }
+
+// const myName1 = new person("Vikas","Rohal","BTech",20)
+// const myName2 = new person("shivam","kumar","btech",20)
+
+// myName1.Fullname = function(){
+//   return this.firstName + " " + this.lastName
+// }
+
+// document.getElementById("demo").innerHTML = myName1.Fullname()
+
+
+//                   (_________________________________________________adding method to constructor ____________________________)
+
+
+// function person (first , last , course , age ){
+//   this.firstName = first,
+//   this.lastName = last ,
+//   this.Course = course,
+//   this.Age = age
+//   this.fullname = function(){
+//     return this.firstName + " "+ this.lastName }  
+// }
+
+// const myName = new person("vikas ","rohal ","btech",20)
+
+// document.getElementById("demo").innerHTML = myName.fullname()
+
+
+//                      (++++++++++++++++++++++++++++++++++++         prototype proprty                  ++++++++++++++++++++++++++++)
+  
+  
+  // function person (fname , lname , age ){
+  //   this.fname = fname ,
+  //   this.lname = lname,
+  //   this.age = age
+
+  // }
+
+  // const per1 = new person ("vikas ", "rohal ",20)
+
+  // person.prototype.nationality = "INDIAN"
+  // document.getElementById("demo").innerHTML = per1.nationality;
+  
+
+
+  //                       (___________________________      sets in javascript   __________________)
+
+  // const letter = new Set(["a","b","c","d"])
+  // document.getElementById("demo").innerHTML = letter
+  
+
+  // const letter = new Set()
+  // letter.add("vikas rohal")
+  // letter.add("BTech")
+  // letter.add(20) 
+  // document.getElementById("demo").innerHTML = letter.size
+
+
+
+
+  //                         (------------------------   maps    - --------------------)
+
+
+
+  // const person = new Map([
+  //   ["race1",400],
+  //   ["race2",800],
+  //   ["race3",1600]
+  // ])
+
+  // // document.getElementById("demo").innerHTML = person.get("race1")
+  // document.getElementById("demo").innerHTML = person.get("race2")
+  // // document.getElementById("demo").innerHTML = person.get("race3")
+
+
+// txt = ""
+//   const per = new Map()
+
+//   per.set("race1",40000)
+//   per.set("race2",80099)
+//   per.set("race3",160099)
+//   per.set("race4",40000)
+//   per.set("race5",80099)
+  // per.set("race6",160099)
+
+  // // document.getElementById("demo").innerHTML = per.get("race1")
+  // document.getElementById("demo").innerHTML = per.size
+ 
+  // document.getElementById("demo").innerHTML = per.has("race1")
+
+  // let txt =""
+  // per.forEach(function(value,key){
+  //   txt += key + " = " + value + "<br>"
+  // })
+  // document.getElementById("demo").innerHTML = txt
+
+// for (const x of per.keys()){
+// for(const x of per.values()){
+//   txt += x + "<br>"
+
+// }
+// document.getElementById("demo").innerHTML = txt
+// // document.getElementById("demo").innerHTML = txt
+
+
+//                                (================   here we can change in property == defineproprty              ===========)
+  
+//   const per = {
+//     firstName : " vikas ",
+//     lastName : " rohal ",
+//     age : " 20 ",
+//     course : " btech "
+//   };
+// // Object.defineProperty(per, "course" , {value:"  MTech "})
+// // document.getElementById("demo").innerHTML = per.course;  
+  
+// Object.defineProperty(per, "college" , {value:"  SD College of Engg and Tech.. "})
+// document.getElementById("demo").innerHTML = per.college;  
+  
+
+  
+  // const per = {
+  //   fname : " vikas ",
+  //   lname : " rohal "
+  // }
+  // Object.defineProperty(per , "fullname",{
+  //   get: function(){return this.fname + " " + this.lname}
+  // })
+  // document.getElementById("demo").innerHTML = per.fullname
+  
+  
+  //              (============   here is counter attack    *boom guys    ==============) 
+
+// const obj = {counter : 0 }
+
+// Object.defineProperty(obj,"reset",{
+//   get : function(){ this.counter = 0 }
+// });
+
+// Object.defineProperty(obj,"increment",{
+//   get : function(){ this.counter++}
+// });
+// Object.defineProperty(obj,"decrement",{
+//   get:function(){ this.counter--}
+// });
+
+// Object.defineProperty(obj , "add",{
+//   get : function(value){  this.counter += value}
+
+// });
+// Object.defineProperty(obj , "subtract",{
+//   get : function(value){ this.counter -= value}
+// });
+
+
+
+
+// obj.reset;
+// obj.add=5;
+// obj.subtract=1;
+// obj.increment;
+// obj.decrement;
+
+// document.getElementById("demo").innerHTML = obj.counter;
+
+
+//                                           (-----------------------------   arrow function   --------------------)
+
+// const x = (a,b) => {
+//   return a*b
+// }
+// document.getElementById("demo").innerHTML= x(12,3333)
+
+
+
+
+// const myName = (name,course) =>{
+//   return (`${name} is a brillient student in this ${course}.   `)
+// }
+// let n1 = " '<b>' Vikas Choudhary '</b>'"
+// let c1 =  " '<b>' Python '</b>' "
+
+// let n2 = " '<b>' Shivam Kumar '</b>' "
+// let c2 = " '<b>' Java '</b>'"
+
+// let n3 = " '<b>' Prashnat Pal '</b>' "
+// let c3 = " '<b> C++ '</b>"
+
+// document.getElementById("demo1").innerHTML = myName(n1,c1)
+// document.getElementById("demo2").innerHTML = myName(n2,c2)
+// document.getElementById("demo3").innerHTML = myName(n3,c3)
+
+
+
+
+
+
+//                       (*********      function                ***********)
+
+
+// function myName(name , course){
+//   return (`${name} is done this ${course} with in 10 days`)
+// }
+
+// let n1 = " '<b>' Vikas Choudhary '</b>'"
+// let c1 =  " '<b>' Python '</b>' "
+
+// let n2 = " '<b>' Shivam Kumar '</b>' "
+// let c2 = " '<b>' Java '</b>'"
+
+// let n3 = " '<b>' Prashnat Pal '</b>' "
+// let c3 = " '<b> C++ '</b>"
+
+// document.getElementById("demo1").innerHTML = myName(n1,c1)
+// document.getElementById("demo2").innerHTML = myName(n2,c2)
+// document.getElementById("demo3").innerHTML = myName(n3,c3)
+
+
+//                   (++++++++++++++++++++   how we can call the function with help of CALL keyword       +++++++++++++++++)
+
+
+// const person = {
+//   fullName : function(){
+//     return this.fname + " " + this.lname;
+//   }
+// }
+
+// const per1 = {
+//   fname : " Vikas ",
+//   lname : " Rohal "
+// }
+
+// const per2 = {
+//   fname : " Shivam ",
+//   lname : " Kumar "
+// }
+
+// document.getElementById("demo1").innerHTML = person.fullName.call(per1)
+// document.getElementById("demo2").innerHTML = person.fullName.call(per2)
+
+
+//    {   ________  apply function _______}
+
+// const person = {
+//   fullName : function(friend){
+//     return this.fname + " " + this.lname  + " " +  `  is best friend of  ${friend}`
+//   }
+// }
+
+// const per1 = {
+//   fname : " Vikas ",
+//   lname : " Rohal "
+// }
+
+// const per2 = {
+//   fname : " Shivam ",
+//   lname : " Kumar "
+// }
+
+// document.getElementById("demo1").innerHTML = person.fullName.apply(per1,["    Vishal Bhardwaj"])
+// document.getElementById("demo2").innerHTML = person.fullName.call(per2,["   Prashnat Pal"])
+
+
+
+
+//     {______________  bind method ;  it is use other function with my arguments __________}
+
+// const per ={
+//   fname : " vikas ",
+//   lname : " rohal ",
+//   fullName : function(){
+//     return this.fname + " " + this.lname;
+//   }
+// }
+
+// const per1 = {
+//   fname : " Shivam ",
+//   lname: " Kumar "
+// }
+
+// let fullName = per.fullName.bind(per1)
+// document.getElementById("demo1").innerHTML = fullName() 
+
+
+
+//                                                  (_____________________   Class in JS ______________)
+
+// class car {
+//   constructor(name,year){
+//     this.name = name,
+//     this.year = year
+//   }
+// }
+// const car1 = new car("BMW",2020)
+// const car2 = new car("Fortuner",2021)
+
+// document.getElementById("demo1").innerHTML = car1.name + " " + car1.year
+// document.getElementById("demo2").innerHTML = car2.name + " " + car2.year
+
+
+//                                             (_____________________     extends         _____________)
+
+// class car {
+//   constructor(name){
+//     return this.carName = name ;
+//   }
+//   present(){
+//     return " i have a " + this.carName ;
+//   }
+// }
+
+// class bike extends car {
+//   constructor(name,bikeName){
+//     super(name),
+//     this.bikeName = bikeName
+//   }
+//   show(){
+//     return this.present() + "  and i have also bike like " + this.bikeName ; 
+//   }
+// }
+
+// let vahan = new bike("BMW","kawaski H2R")
+// document.getElementById("demo1").innerHTML = vahan.show()
+
+
+
+
+// class sum {
+//   constructor(a,b){
+//     this.a = a;
+//     this.b = b;
+//   }
+//   show1(){
+//     return " sum is " + this.a + this.b;
+//   }
+// }
+
+// class calc extends sum {
+//   constructor(a,b,c,d){
+//     super(a),
+//     super(b),                                                                         ====   some error present in this code
+//     this.c = c,      
+//     this.d = d  
+//   }
+//   show2(){
+//     return this.show1 + "  mult will be " + this.c * this.d ; 
+//   }
+// }
+
+// let cal = new calc(20,30,20,30)
+// document.getElementById("demo1").innerHTML = cal.show2() ;
+  
+  
+
+
+
+
+//                                 (--------------------    callback function   -------------------)
+
+
+//    synchronus method
+
+    //  function per(){
+    //     document.getElementById("demo1").innerHTML = ("hey guys this is vikas choudhary");
+    //   }
+ 
+    //   function per1(callback){
+    //      callback();
+    //    }
+
+    //   per1(per);
+
+
+
+    // function car1(car){
+    //   document.getElementById("demo1").innerHTML = " Myself Vikas Choudhary and  i have  " + car;
+    // }
+    // function car2 (car,callback){
+    //   callback(car);
+    // }
+    // car2("mustang",car1)
+
+
+
+//      asynchronus method
+
+  // setTimeout(function car1(){
+  //   document.getElementById("demo1").innerHTML = " here is a bloody man "
+  // },4000)
+  // document.getElementById("demo2").innerHTML = " mustang "
+
+
+  // setTimeout((a) => {
+  //   document.getElementById("demo1").innerHTML =  `this is my car ${a}`
+    
+  // }, 3000);
+   
+  // function b(a,callback) {
+  //   var a = "bmw";
+  //   callback(a)
+  // }
+
+  // b()
+
+
+
+
+
+
+
+  
+  // function per1 (){
+  //   document.getElementById("demo1").innerHTML = " vikas choudhary is here "
+  // }
+
+  // function per2(callback){
+  //   callback()
+  // }
+
+  // per2(per1);
+
+
+
+  // setTimeout((car="BMW") => {
+  //   document.getElementById("demo1").innerHTML = " This is my car " + car
+  // },3000);
+
+  // function b(callback){
+  //   callback();
+  // }
+
+  // b();
+
+
+
+
+
+
+
+
+
+
+  //                   (---------------------     promises            ---------------)
+
+  
+  // function buddy (complete){
+  //   return new Promise(function(resolve,reject){
+  //     if (complete) {
+  //       resolve(" i am successfull");
+  //     }
+  //     else{
+  //       reject(" i lose my work");
+  //     }
+  //   });
+  // }
+
+  // let onFullfillment = (result) =>{
+  //   document.getElementById("demo1").innerHTML = result
+  // }
+
+
+  // let onRejection = (error) =>{
+  //   document.getElementById("demo1").innerHTML = error
+  // }
+
+  // buddy(false).then(onFullfillment).catch(onRejection);
+  
+
+
+
+  // function buddy (a,b){
+  //   return new Promise(function(resolve,reject){
+  //     document.getElementById("demo1").innerHTML = " Calculating .Please wait --"
+  //     var c = a*b;
+  //     setTimeout(() => {
+  //     if (a,b) {
+  //       resolve(" i am successfull , my answer is " + c);
+  //     }
+  //     else{
+  //       reject(" i lose in calculation");
+  //     }
+
+
+  //     },3000);
+  //   });
+  // }
+
+  // // let onFullfillment = (result) =>{
+  // //   document.getElementById("demo2").innerHTML = result
+  // // }
+
+
+  // // let onRejection = (error) =>{
+  // //   document.getElementById("demo2").innerHTML = error
+  // // }
+
+  // buddy(344,34442).then((result) =>{
+  //   document.getElementById("demo2").innerHTML = result
+  // }).catch((error) =>{
+  //   document.getElementById("demo2").innerHTML = error
+  // });
+  
+
+//                           ( ----------------- synchronus  ----------------)
+
+  // function vikas (c){
+  //   return new Promise(function(resolve,reject){
+  //     if(c){
+  //       resolve(" i am successful in my work ")
+  //     }
+  //     else{
+  //       reject(" i lose my work ")
+  //     }
+  //   })
+  // }
+
+  // let onFullfillment = (result) =>{
+  //   document.getElementById("demo1").innerHTML = result
+  // }
+
+  // let onRejection = (error) =>{
+  //   document.getElementById("demo1").innerHTML = error
+  // }
+
+
+  // vikas(false).then(onFullfillment).catch(onRejection)
+
+                                                                              //  (-----  asynchronus   ------)
+
+  // function vikas(a,b){
+  //   return new Promise(function(resolve,reject){
+  //     document.getElementById("demo1").innerHTML = " please wait a moment ----"
+  //     var c = a/b;
+  //     setTimeout(() => {
+  //       if(a,b){
+  //         resolve(`my answer is : ${c}`)}
+  //       else{
+  //         reject("i cant calculate answer")
+  //       }
+  //     }, 2000);
+  //   })
+  // }
+
+  // vikas(32,6).then((result)=>{document.getElementById("demo2").innerHTML = result}).catch((error)=>document.getElementById("demo2").innerHTML = error)
+
+
+
+
+
+
+
+
+  //                           ( --------------------- async or await ________________________)
+
+
+  // async function car(){
+  //   document.getElementById("demo1").innerHTML = "BMW"
+  // }
+
+  // car();
+
+  // async function tst(){
+  //   document.getElementById("demo1").innerHTML = " A ";
+  //   document.getElementById("demo2").innerHTML = " B ";
+  //   document.getElementById("demo3").innerHTML = " C ";
+
+  // }
+
+  // tst();
+  // document.getElementById("demo4").innerHTML = " D "
+  // document.getElementById("demo5").innerHTML = " E "
+  
+
+  // async function tst(){
+  //   document.getElementById("demo1").innerHTML = " A ";
+  //   document.getElementById("demo2").innerHTML = " B ";
+  //  await document.getElementById("demo3").innerHTML ( " C ");
+
+  // }
+
+  // tst();
+  // document.getElementById("demo4").innerHTML = " D "
+  // document.getElementById("demo5").innerHTML = " E "
+  
+
+
+
+  // async function demo(){
+  //   console.log("1.Hello")
+  //   await console.log("2.Hello")
+  //   console.log("3.Hello")
+  // }
+  // console.log("4.Hello")
+  // demo()
+  // console.log("5.Hello");
+
+
+
+                                                 //     CALLBACK NOT ALWAYS ASYNCHONOUS
+
+  //                                  ( synchronous callback   )
+
+
+
+  // console.log("------Start--------")
+  // var a = [1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+  // a.forEach(r => {
+  //   console.log(r)
+  // })
+  // console.log("------End--------")
+
+
+
+  //                ( EXECPTION CASE )
+
+  // console.log("-------------start------------")
+
+  // function getName(name){
+  //   setTimeout(() => {
+  //     console.log("inside set time out function ")
+  //     return name;
+  //   }, 2000)}
+
+  // var nm = getName(" vikas choudhary ")
+  // console.log(nm)
+
+  // console.log("_____________ENd_____________")
+
+
+  //                      (   solutiom of above situation    )
+
+  // console.log(" START ");
+  
+  // function getName(name,callback){
+  //   setTimeout(() => {
+  //     console.log("inside of set time out function ")      
+  //     callback(name)
+  //   }, 3000);
+    
+  // }
+ 
+  // const nm = getName("vikas choudhary", (nm) => { console.log(nm)} )
+  // console.log("_______END_________")
+
+
+  // console.log(" START ");
+  
+  // function getName(name,callback){
+  //   setTimeout(() => {
+  //     console.log("inside of set time out function ")      
+  //     callback(name)
+  //   }, 3000);
+  // }
+ 
+  // function getHobbies(name,callback){
+  //   setTimeout(() => {
+  //     console.log("inside of set time out function ")      
+  //     callback(['reading','dancing','singing'])
+  //   }, 2000);
+  // }
+
+  // const nm = getName("vikas choudhary", (nm) => { console.log(nm);
+  // getHobbies(nm,(hobby) => {console.log(hobby)})} )
+  
+  
+  // console.log("_______END_________")
+
+
+
+
+  //("==================== Events ===================") 
+
+  
+  // let para = document.getElementById('para')
+  //   para.addEventListener('mouseover',function run(){
+  //     alert (" MOUSE INSIDE THE CONTENT")
+  //   })
+
+
+  // function hideShow() {
+  //   let btn = document.getElementById('btn');
+  //   let para = document.getElementById('para');
+  //   if(para.style.display != 'none'){
+  //     para.style.display = 'none';
+  //   }else{
+  //     para.style.display = 'block';
+  //   }
+  // }
+
+
+
+  
+  //               (----------------------   addEventListner       -------------------)
+
+  // document.getElementById("para").addEventListener('mouseover',function(){
+  //   document.getElementById("para").style.background = 'green';
+  // })
+
+  
+  // document.getElementById("para").addEventListener('mouseleave',function(){
+  //   document.getElementById("para").style.background = 'white';
+  // })
+
+
+  // document.getElementById("btn").addEventListener('mouseover',function(){
+  //   document.getElementById("btn").style.background = 'green';
+  // })
+
+  
+  // document.getElementById("btn").addEventListener('mouseleave',function(){
+  //   document.getElementById("btn").style.background = 'blue';
+  // })
+  // document.getElementById("btn").addEventListener('mouseover',function(){
+  //   document.getElementById("btn").style.background = "yellow"
+  // })
+
+
+
+
+
+
+</script>
+</body>
+</html>

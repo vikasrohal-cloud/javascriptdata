@@ -1,0 +1,9 @@
+@@@@@@@@@@@@@@@@@@@@@@  javascrit  @@@@@@@@@@@@@@@@@@@@@@@@
+
+its is a programming language
+its works as a brain in web page
+
+external javascript
+1 with the help of path
+2 with the help of url
+3 withot any link (direct "src=myscript.js")
